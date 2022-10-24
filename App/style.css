@@ -1,0 +1,36 @@
+body {
+    background-color: black !important;
+    color: antiquewhite !important;
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+    text-align: center !important;
+}
+
+/* Path: App\style.css */
+
+#heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#heading > #subtitle {
+    font-size: 15px;
+}
+
+#seriestable {
+    font-size: 14px;
+    background-color: rgb(250, 235, 215);
+    color: rgb(112, 104, 95);
+    width: 500px;
+    height: 415px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid rgb(250, 235, 215);
+    border-collapse: collapse;
+    border-radius: 20px;
+    caption-side: bottom;
+}
+
+#seriestable > caption {
+    color: antiquewhite;
+    text-align: center;
+}
