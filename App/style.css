@@ -22,15 +22,41 @@ body {
     color: rgb(112, 104, 95);
     width: 500px;
     height: 415px;
-    margin-left: auto;
+    margin-left:20%;
     margin-right: auto;
     border: 0px solid rgb(250, 235, 215);
     border-collapse: collapse;
     border-radius: 20px;
     caption-side: bottom;
+    position: relative;
 }
 
 #seriestable > caption {
     color: antiquewhite;
     text-align: center;
+}
+
+#cardblock {
+    display: inline-block;
+    width: 220px;
+    margin-bottom: 900px;
+    position: absolute;
+    top: 27.19%;
+    right: 20%;
+    height: 415px;
+    background-color: rgb(250, 235, 215);
+    border: 0px solid rgb(250, 235, 215);
+    border-radius: 20px;
+}
+
+#cardblock > .card-body {
+    font-size: 10px;
+    color: rgb(112, 104, 95);
+}
+
+#cardblock > #cardimg {
+    width: 220px;
+    height: width;
+    border-radius: 5px;
+    border: 0px solid rgb(250, 235, 215);
 }
